@@ -25,3 +25,12 @@ def find_movie(movie):
         print (f"'{movie}' found.")
     else:
         print (f"'{movie}' not found.")
+
+def clear_movies():
+    favorite_movies.clear()
+    print("All movies have been removed from list.")
+
+print("\n--- Testing add_movie() ---")
+add_movie("The Shawshank Redemption")
+add_movie("The Godfather")
+add_movie("Pulp Fiction")
